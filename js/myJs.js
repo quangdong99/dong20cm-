@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Chào em ! lại là anh đây =))))!',
+        title: 'Chào em ! lại là Đông đây =))))!',
         text: 'A hỏi cái này.',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
