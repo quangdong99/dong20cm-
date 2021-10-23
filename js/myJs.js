@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'Hí em =))) =))))!',
-        text: 'a Hỏi tí',
+        text: 'a đây -))',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho a lí do e thích a đi :vvvv',
+        title: 'lí do nào :)))',
         html: true,
         width: 900,
         padding: '3em',
