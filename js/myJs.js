@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Chào em ! lại là Đông đây =))))!',
-        text: 'A hỏi cái này.',
+        title: 'Hí em =))) =))))!',
+        text: 'a Hỏi tí',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì a đẹp trai vl :<<<<<<< ";
+    var text = " Tại vì a ngon vcl, em nhìn muộn rụng egg =))) ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do e thích a đi :vvvv',
+        title: 'Nói cho a lí do e thích a đi :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,20 +109,20 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Thôi ngại lém =)))",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho a <3'
+        confirmButtonText: 'Gửi cho a =)))'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Okiiiii lun <3',
+                confirmButtonText: 'yeb',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'a biết mà ^^ Yêu e 300.000',
-                text: "Tối nay a qua đón e đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho a đi nàoooooo",
+                title: 'a biết mà =))) 7k mua kẹo, 3k không cho em đâu =)))',
+                text: "ib ngay nào =)))",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/n.q.dongg/';
