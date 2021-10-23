@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hí em =))) =))))!',
-        text: 'a đây -))',
+        title: 'Hí em  =))))!',
+        text: 'Đông đz đây :))',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
